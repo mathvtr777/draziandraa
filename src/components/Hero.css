@@ -1,0 +1,20 @@
+.hero {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: block;
+  background-color: var(--color-champagne);
+  overflow: hidden;
+  padding: 0;
+}
+
+.hero-image-wrapper {
+  width: 100%;
+  height: auto;
+}
+
+.hero-image-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
