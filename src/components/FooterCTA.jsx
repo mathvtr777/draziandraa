@@ -7,7 +7,7 @@ export default function FooterCTA() {
   const [showSticky, setShowSticky] = useState(false);
 
   const zapLink = "https://api.whatsapp.com/send/?phone=5584994155480&text=Ol%C3%A1%2C+gostaria+de+agendar+uma+consulta+na+ZM+Odontologia%21+%3A%29&type=phone_number&app_absent=0";
-  const rjLink = "https://api.whatsapp.com/message/XJKC4INXHNPOM1?autoload=1&app_absent=0";
+
   const natalOnlineLink = "https://agenda.link/online_scheduling/zmodontologia/";
 
   useEffect(() => {
@@ -53,9 +53,6 @@ export default function FooterCTA() {
               </div>
               <div className="footer-col">
                 <h3 className="footer-col-title">Unidades e Contato</h3>
-                <a href={rjLink} target="_blank" rel="noopener noreferrer" className="footer-link">
-                  <MapPin size={14} style={{ marginRight: '8px', verticalAlign: 'middle' }} /> Copacabana, RJ (WhatsApp)
-                </a>
                 <a href={zapLink} target="_blank" rel="noopener noreferrer" className="footer-link">
                   <MapPin size={14} style={{ marginRight: '8px', verticalAlign: 'middle' }} /> Natal, RN (WhatsApp)
                 </a>
